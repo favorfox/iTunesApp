@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15E65" minimumToolsVersion="Xcode 7.0">
+    <entity name="Tbl_ArchivedRequest" syncable="YES">
+        <attribute name="archivedRequest" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="group_id" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Tbl_Contact" syncable="YES">
+        <attribute name="countryCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fullName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="profileImage" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="profileImageUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_id" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Tbl_groups" syncable="YES">
+        <attribute name="admin_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="group_icon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="group_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="group_members" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="group_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="request_badge" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Tbl_Request" syncable="YES">
+        <attribute name="group_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="request" optional="YES" attributeType="Binary" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Tbl_ArchivedRequest" positionX="-369" positionY="36" width="128" height="75"/>
+        <element name="Tbl_Contact" positionX="-360" positionY="45" width="128" height="165"/>
+        <element name="Tbl_groups" positionX="-371" positionY="-12" width="128" height="133"/>
+        <element name="Tbl_Request" positionX="-351" positionY="90" width="128" height="75"/>
+    </elements>
+</model>

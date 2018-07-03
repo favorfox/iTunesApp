@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6A11D3D9C1262B280820BFA0D8CBAA8A67159A98",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "b359db89-6208-1748-a307-c7429ea28046++1153" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6A11D3D9C1262B280820BFA0D8CBAA8A67159A98" : 0,
+    "b359db89-6208-1748-a307-c7429ea28046++1153" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3D5DABA1-BC9D-4323-8859-3AFABB37E3F9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6A11D3D9C1262B280820BFA0D8CBAA8A67159A98" : "repo\/",
+    "b359db89-6208-1748-a307-c7429ea28046++1153" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "iSteer",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iSteer.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/istreet1\/istreet.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6A11D3D9C1262B280820BFA0D8CBAA8A67159A98"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/203.109.68.198\/svn_Freelancer",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "b359db89-6208-1748-a307-c7429ea28046++1153"
+    }
+  ]
+}

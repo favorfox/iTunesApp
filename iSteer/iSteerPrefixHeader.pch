@@ -1,0 +1,17 @@
+//
+//  iSteerPrefixHeader.pch
+//  iSteer
+//
+//  Created by EL Capitan on 28/10/16.
+//  Copyright © 2016 iSteer. All rights reserved.
+//
+
+#ifndef iSteerPrefixHeader_pch
+#define iSteerPrefixHeader_pch
+
+#import <CoreData/CoreData.h>
+
+#import "TestFairy.h"
+#define NSLog(s, ...) do { NSLog(s, ##__VA_ARGS__); TFLog(s, ##__VA_ARGS__); } while (0)
+
+#endif /* iSteerPrefixHeader_pch */

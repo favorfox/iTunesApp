@@ -1,0 +1,24 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "b359db89-6208-1748-a307-c7429ea28046++1153" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "b359db89-6208-1748-a307-c7429ea28046++1153" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "82BF4B34-F365-45FA-8074-737B0EF81F63",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "b359db89-6208-1748-a307-c7429ea28046++1153" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "iSteer",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iSteer.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/203.109.68.198\/svn_Freelancer",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "b359db89-6208-1748-a307-c7429ea28046++1153"
+    }
+  ]
+}

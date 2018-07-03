@@ -1,0 +1,1155 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11DF40A82C05D9825D810068 /* libPods-iSteerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8117B1DA4F4D1C9F83F2915 /* libPods-iSteerUITests.a */; };
+		44074D1F1DDD6B7900FDACCB /* HDNotificationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44074D1E1DDD6B7900FDACCB /* HDNotificationView.m */; };
+		44441F691DB5DC9100CE732E /* CountryPickerTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44441F671DB5DC9100CE732E /* CountryPickerTableCell.m */; };
+		44441F6A1DB5DC9100CE732E /* CountryPickerTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44441F681DB5DC9100CE732E /* CountryPickerTableCell.xib */; };
+		44441F6E1DB5EC0800CE732E /* ISGroupListTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44441F6D1DB5EC0800CE732E /* ISGroupListTableCell.m */; };
+		44441F711DB5FDFD00CE732E /* ISGroupDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 44441F701DB5FDFD00CE732E /* ISGroupDetailVC.m */; };
+		44441F741DB5FF7B00CE732E /* ISCarpoolGroupTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44441F731DB5FF7B00CE732E /* ISCarpoolGroupTableCell.m */; };
+		44441F771DB5FF9400CE732E /* ISEventGroupTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44441F761DB5FF9400CE732E /* ISEventGroupTableCell.m */; };
+		44441F7A1DB62C0D00CE732E /* ISNewRequestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 44441F791DB62C0D00CE732E /* ISNewRequestVC.m */; };
+		44475A5A1DB748E40056FD24 /* ISContactDataListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 44475A591DB748E40056FD24 /* ISContactDataListModel.m */; };
+		44567B441DB9DB9200AA938F /* ICEventRequestDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 44567B431DB9DB9200AA938F /* ICEventRequestDetailVC.m */; };
+		44567B4A1DB9E43700AA938F /* APIUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 44567B491DB9E43700AA938F /* APIUtility.m */; };
+		44567B4D1DB9E86D00AA938F /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 44567B4C1DB9E86D00AA938F /* Constants.m */; };
+		44567B501DBA29F300AA938F /* ISCurrentUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 44567B4F1DBA29F300AA938F /* ISCurrentUserData.m */; };
+		44586AC41DE2EBBA00B01D90 /* ISNewRequestDateTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44586AC31DE2EBBA00B01D90 /* ISNewRequestDateTableCell.m */; };
+		446839EE1DDAD00B00AAA51F /* ISLocalContactVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 446839ED1DDAD00B00AAA51F /* ISLocalContactVC.m */; };
+		446839F11DDADFB600AAA51F /* ISLocalContactDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 446839F01DDADFB600AAA51F /* ISLocalContactDataModel.m */; };
+		44AD99A41DBDD264007EF52A /* ISGroupDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 44AD99A31DBDD264007EF52A /* ISGroupDataModel.m */; };
+		44AD99A71DBDD305007EF52A /* ISGroupMemberDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 44AD99A61DBDD305007EF52A /* ISGroupMemberDataModel.m */; };
+		44AE33821DC08961000DA994 /* ISAddMemberToGroupVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 44AE33811DC08961000DA994 /* ISAddMemberToGroupVC.m */; };
+		44AE33851DC09C7A000DA994 /* ISAddMemberTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44AE33841DC09C7A000DA994 /* ISAddMemberTableCell.m */; };
+		44B2314C1DB733FE003C782C /* ISContactListTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B2314B1DB733FE003C782C /* ISContactListTableCell.m */; };
+		44B2314F1DB738A0003C782C /* ISContactDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B2314E1DB738A0003C782C /* ISContactDataModel.m */; };
+		44B231531DB739CE003C782C /* AppData.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B231521DB739CE003C782C /* AppData.m */; };
+		44B2D9671DBF316600992D8D /* ISGroupInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B2D9661DBF316600992D8D /* ISGroupInfoVC.m */; };
+		44B3BD131DC321A5009B2774 /* CustomInfiniteIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B3BD121DC321A5009B2774 /* CustomInfiniteIndicator.m */; };
+		44B3BD1B1DC36454009B2774 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44B3BD1A1DC36454009B2774 /* CoreMedia.framework */; };
+		44B3BD1D1DC3645E009B2774 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44B3BD1C1DC3645E009B2774 /* CoreMotion.framework */; };
+		44B3BD1F1DC36474009B2774 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44B3BD1E1DC36474009B2774 /* AVFoundation.framework */; };
+		44B3BD211DC3647D009B2774 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44B3BD201DC3647D009B2774 /* SystemConfiguration.framework */; };
+		44B3BD231DC36487009B2774 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44B3BD221DC36487009B2774 /* OpenGLES.framework */; };
+		44B3BD281DC36654009B2774 /* libTestFairy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44B3BD251DC36654009B2774 /* libTestFairy.a */; };
+		44B3BD291DC36654009B2774 /* upload-dsym.sh in Resources */ = {isa = PBXBuildFile; fileRef = 44B3BD271DC36654009B2774 /* upload-dsym.sh */; };
+		44B960E41DB888240090EDD9 /* ISCarpoolRequestDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B960E31DB888240090EDD9 /* ISCarpoolRequestDetailVC.m */; };
+		44C5EF6B1DC1C6FA00A66633 /* ISCompletedProfileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C5EF6A1DC1C6F900A66633 /* ISCompletedProfileVC.m */; };
+		44C5EF6E1DC2002B00A66633 /* ISRequestTextModelClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C5EF6D1DC2002B00A66633 /* ISRequestTextModelClass.m */; };
+		44C5EF711DC200BA00A66633 /* ISDueDateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C5EF701DC200BA00A66633 /* ISDueDateModel.m */; };
+		44C5EF741DC200F500A66633 /* ISSourceAddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C5EF731DC200F500A66633 /* ISSourceAddressModel.m */; };
+		44C5EF771DC2016300A66633 /* ISDestinationAddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C5EF761DC2016300A66633 /* ISDestinationAddressModel.m */; };
+		44C5EF7A1DC2075B00A66633 /* ISRequestDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C5EF791DC2075B00A66633 /* ISRequestDataModel.m */; };
+		44C5EF7D1DC2082900A66633 /* ISContactNumberModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C5EF7C1DC2082900A66633 /* ISContactNumberModel.m */; };
+		44C6EACB1DE0304600210F85 /* ISArchivedRequestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C6EACA1DE0304600210F85 /* ISArchivedRequestVC.m */; };
+		44DE5CD31DB4E66E005219C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DE5CD21DB4E66E005219C4 /* main.m */; };
+		44DE5CD61DB4E66E005219C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DE5CD51DB4E66E005219C4 /* AppDelegate.m */; };
+		44DE5CDC1DB4E66E005219C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44DE5CDA1DB4E66E005219C4 /* Main.storyboard */; };
+		44DE5CDE1DB4E66E005219C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44DE5CDD1DB4E66E005219C4 /* Assets.xcassets */; };
+		44DE5CE11DB4E66E005219C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44DE5CDF1DB4E66E005219C4 /* LaunchScreen.storyboard */; };
+		44DE5CEC1DB4E66E005219C4 /* iSteerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DE5CEB1DB4E66E005219C4 /* iSteerTests.m */; };
+		44DE5CF71DB4E66E005219C4 /* iSteerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DE5CF61DB4E66E005219C4 /* iSteerUITests.m */; };
+		44DE5D0A1DB4E915005219C4 /* ISWelcomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DE5D091DB4E915005219C4 /* ISWelcomeVC.m */; };
+		44DE5D0D1DB4E968005219C4 /* ISVerificationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DE5D0C1DB4E968005219C4 /* ISVerificationVC.m */; };
+		44DE5D101DB4F263005219C4 /* ISContactsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DE5D0F1DB4F263005219C4 /* ISContactsVC.m */; };
+		44DE5D131DB4F27F005219C4 /* ISGroupsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DE5D121DB4F27F005219C4 /* ISGroupsVC.m */; };
+		44DE5D161DB4F294005219C4 /* ISSettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DE5D151DB4F294005219C4 /* ISSettingVC.m */; };
+		44DE5D201DB4FEE9005219C4 /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 44DE5D181DB4FEE9005219C4 /* countries.json */; };
+		44DE5D211DB4FEE9005219C4 /* CountryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DE5D1A1DB4FEE9005219C4 /* CountryCell.m */; };
+		44DE5D221DB4FEE9005219C4 /* CountryListDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DE5D1C1DB4FEE9005219C4 /* CountryListDataSource.m */; };
+		44DE5D231DB4FEE9005219C4 /* CountryListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DE5D1E1DB4FEE9005219C4 /* CountryListViewController.m */; };
+		44DE5D241DB4FEE9005219C4 /* CountryListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44DE5D1F1DB4FEE9005219C4 /* CountryListViewController.xib */; };
+		44E0B5D21DD037AE0089546E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E0B5D11DD037AE0089546E /* CoreData.framework */; };
+		44E0B5D51DD038180089546E /* iSteerModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44E0B5D31DD038180089546E /* iSteerModel.xcdatamodeld */; };
+		44ED28691DB763A200810A12 /* ISNewGroupVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 44ED28681DB763A200810A12 /* ISNewGroupVC.m */; };
+		44ED286E1DB7716000810A12 /* ISSelectedContactListCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44ED286D1DB7716000810A12 /* ISSelectedContactListCollectionCell.m */; };
+		44F6EC4B1DB8A82F00188A1D /* ISRequestTextPopUpVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F6EC491DB8A82F00188A1D /* ISRequestTextPopUpVC.m */; };
+		C69E2AA53099576AFCAFC179 /* libPods-iSteer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F356643E58CB41776B38B4CD /* libPods-iSteer.a */; };
+		CE43BF5B50465D4C0EC7ECDC /* libPods-iSteerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AF1FDB323F5DC4BA00489F9 /* libPods-iSteerTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44DE5CE81DB4E66E005219C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44DE5CC61DB4E66E005219C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44DE5CCD1DB4E66E005219C4;
+			remoteInfo = iSteer;
+		};
+		44DE5CF31DB4E66E005219C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44DE5CC61DB4E66E005219C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44DE5CCD1DB4E66E005219C4;
+			remoteInfo = iSteer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DDAE429631615D56867BF1B /* Pods-iSteer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSteer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSteer/Pods-iSteer.debug.xcconfig"; sourceTree = "<group>"; };
+		27B187DF909CC37017F2D1A3 /* Pods-iSteerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSteerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSteerTests/Pods-iSteerTests.release.xcconfig"; sourceTree = "<group>"; };
+		2AF1FDB323F5DC4BA00489F9 /* libPods-iSteerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iSteerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		414F42301AD8F009DEA3EDD1 /* Pods-iSteerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSteerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSteerUITests/Pods-iSteerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		44074D1D1DDD6B7900FDACCB /* HDNotificationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDNotificationView.h; sourceTree = "<group>"; };
+		44074D1E1DDD6B7900FDACCB /* HDNotificationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDNotificationView.m; sourceTree = "<group>"; };
+		44441F661DB5DC9100CE732E /* CountryPickerTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CountryPickerTableCell.h; path = "Third Party/CountryList/CountryPickerTableCell.h"; sourceTree = "<group>"; };
+		44441F671DB5DC9100CE732E /* CountryPickerTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CountryPickerTableCell.m; path = "Third Party/CountryList/CountryPickerTableCell.m"; sourceTree = "<group>"; };
+		44441F681DB5DC9100CE732E /* CountryPickerTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CountryPickerTableCell.xib; path = "Third Party/CountryList/CountryPickerTableCell.xib"; sourceTree = "<group>"; };
+		44441F6C1DB5EC0800CE732E /* ISGroupListTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISGroupListTableCell.h; path = "Custom Cell/ISGroupListTableCell.h"; sourceTree = "<group>"; };
+		44441F6D1DB5EC0800CE732E /* ISGroupListTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISGroupListTableCell.m; path = "Custom Cell/ISGroupListTableCell.m"; sourceTree = "<group>"; };
+		44441F6F1DB5FDFD00CE732E /* ISGroupDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISGroupDetailVC.h; path = "View Controller/ISGroupDetailVC.h"; sourceTree = "<group>"; };
+		44441F701DB5FDFD00CE732E /* ISGroupDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISGroupDetailVC.m; path = "View Controller/ISGroupDetailVC.m"; sourceTree = "<group>"; usesTabs = 0; };
+		44441F721DB5FF7B00CE732E /* ISCarpoolGroupTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISCarpoolGroupTableCell.h; path = "Custom Cell/ISCarpoolGroupTableCell.h"; sourceTree = "<group>"; };
+		44441F731DB5FF7B00CE732E /* ISCarpoolGroupTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISCarpoolGroupTableCell.m; path = "Custom Cell/ISCarpoolGroupTableCell.m"; sourceTree = "<group>"; };
+		44441F751DB5FF9400CE732E /* ISEventGroupTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISEventGroupTableCell.h; path = "Custom Cell/ISEventGroupTableCell.h"; sourceTree = "<group>"; };
+		44441F761DB5FF9400CE732E /* ISEventGroupTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISEventGroupTableCell.m; path = "Custom Cell/ISEventGroupTableCell.m"; sourceTree = "<group>"; };
+		44441F781DB62C0D00CE732E /* ISNewRequestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISNewRequestVC.h; path = "View Controller/ISNewRequestVC.h"; sourceTree = "<group>"; };
+		44441F791DB62C0D00CE732E /* ISNewRequestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISNewRequestVC.m; path = "View Controller/ISNewRequestVC.m"; sourceTree = "<group>"; };
+		44475A581DB748E40056FD24 /* ISContactDataListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISContactDataListModel.h; path = "Model Class/ISContactDataListModel.h"; sourceTree = "<group>"; };
+		44475A591DB748E40056FD24 /* ISContactDataListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISContactDataListModel.m; path = "Model Class/ISContactDataListModel.m"; sourceTree = "<group>"; };
+		44567B421DB9DB9200AA938F /* ICEventRequestDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ICEventRequestDetailVC.h; path = "View Controller/ICEventRequestDetailVC.h"; sourceTree = "<group>"; };
+		44567B431DB9DB9200AA938F /* ICEventRequestDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ICEventRequestDetailVC.m; path = "View Controller/ICEventRequestDetailVC.m"; sourceTree = "<group>"; };
+		44567B481DB9E43700AA938F /* APIUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APIUtility.h; path = Utility/APIUtility.h; sourceTree = "<group>"; };
+		44567B491DB9E43700AA938F /* APIUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APIUtility.m; path = Utility/APIUtility.m; sourceTree = "<group>"; };
+		44567B4B1DB9E86D00AA938F /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = Utility/Constants.h; sourceTree = "<group>"; };
+		44567B4C1DB9E86D00AA938F /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Constants.m; path = Utility/Constants.m; sourceTree = "<group>"; };
+		44567B4E1DBA29F300AA938F /* ISCurrentUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISCurrentUserData.h; path = "Model Class/ISCurrentUserData.h"; sourceTree = "<group>"; };
+		44567B4F1DBA29F300AA938F /* ISCurrentUserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISCurrentUserData.m; path = "Model Class/ISCurrentUserData.m"; sourceTree = "<group>"; };
+		44586AC21DE2EBBA00B01D90 /* ISNewRequestDateTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISNewRequestDateTableCell.h; path = "Custom Cell/ISNewRequestDateTableCell.h"; sourceTree = "<group>"; };
+		44586AC31DE2EBBA00B01D90 /* ISNewRequestDateTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISNewRequestDateTableCell.m; path = "Custom Cell/ISNewRequestDateTableCell.m"; sourceTree = "<group>"; };
+		446839EC1DDAD00B00AAA51F /* ISLocalContactVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISLocalContactVC.h; path = "View Controller/ISLocalContactVC.h"; sourceTree = "<group>"; };
+		446839ED1DDAD00B00AAA51F /* ISLocalContactVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISLocalContactVC.m; path = "View Controller/ISLocalContactVC.m"; sourceTree = "<group>"; };
+		446839EF1DDADFB600AAA51F /* ISLocalContactDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISLocalContactDataModel.h; path = "Model Class/ISLocalContactDataModel.h"; sourceTree = "<group>"; };
+		446839F01DDADFB600AAA51F /* ISLocalContactDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISLocalContactDataModel.m; path = "Model Class/ISLocalContactDataModel.m"; sourceTree = "<group>"; };
+		44AD99A21DBDD264007EF52A /* ISGroupDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISGroupDataModel.h; path = "Model Class/ISGroupDataModel.h"; sourceTree = "<group>"; };
+		44AD99A31DBDD264007EF52A /* ISGroupDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISGroupDataModel.m; path = "Model Class/ISGroupDataModel.m"; sourceTree = "<group>"; };
+		44AD99A51DBDD305007EF52A /* ISGroupMemberDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISGroupMemberDataModel.h; path = "Model Class/ISGroupMemberDataModel.h"; sourceTree = "<group>"; };
+		44AD99A61DBDD305007EF52A /* ISGroupMemberDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISGroupMemberDataModel.m; path = "Model Class/ISGroupMemberDataModel.m"; sourceTree = "<group>"; };
+		44AE33801DC08961000DA994 /* ISAddMemberToGroupVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISAddMemberToGroupVC.h; path = "View Controller/ISAddMemberToGroupVC.h"; sourceTree = "<group>"; };
+		44AE33811DC08961000DA994 /* ISAddMemberToGroupVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISAddMemberToGroupVC.m; path = "View Controller/ISAddMemberToGroupVC.m"; sourceTree = "<group>"; };
+		44AE33831DC09C7A000DA994 /* ISAddMemberTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISAddMemberTableCell.h; path = "Custom Cell/ISAddMemberTableCell.h"; sourceTree = "<group>"; };
+		44AE33841DC09C7A000DA994 /* ISAddMemberTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISAddMemberTableCell.m; path = "Custom Cell/ISAddMemberTableCell.m"; sourceTree = "<group>"; };
+		44B2314A1DB733FE003C782C /* ISContactListTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISContactListTableCell.h; path = "Custom Cell/ISContactListTableCell.h"; sourceTree = "<group>"; };
+		44B2314B1DB733FE003C782C /* ISContactListTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISContactListTableCell.m; path = "Custom Cell/ISContactListTableCell.m"; sourceTree = "<group>"; };
+		44B2314D1DB738A0003C782C /* ISContactDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISContactDataModel.h; path = "Model Class/ISContactDataModel.h"; sourceTree = "<group>"; };
+		44B2314E1DB738A0003C782C /* ISContactDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISContactDataModel.m; path = "Model Class/ISContactDataModel.m"; sourceTree = "<group>"; };
+		44B231511DB739CE003C782C /* AppData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppData.h; path = Utility/AppData.h; sourceTree = "<group>"; };
+		44B231521DB739CE003C782C /* AppData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppData.m; path = Utility/AppData.m; sourceTree = "<group>"; };
+		44B2D9651DBF316600992D8D /* ISGroupInfoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISGroupInfoVC.h; path = "View Controller/ISGroupInfoVC.h"; sourceTree = "<group>"; };
+		44B2D9661DBF316600992D8D /* ISGroupInfoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISGroupInfoVC.m; path = "View Controller/ISGroupInfoVC.m"; sourceTree = "<group>"; };
+		44B3BD111DC321A5009B2774 /* CustomInfiniteIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomInfiniteIndicator.h; sourceTree = "<group>"; };
+		44B3BD121DC321A5009B2774 /* CustomInfiniteIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomInfiniteIndicator.m; sourceTree = "<group>"; };
+		44B3BD1A1DC36454009B2774 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		44B3BD1C1DC3645E009B2774 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		44B3BD1E1DC36474009B2774 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		44B3BD201DC3647D009B2774 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		44B3BD221DC36487009B2774 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		44B3BD251DC36654009B2774 /* libTestFairy.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFairy.a; sourceTree = "<group>"; };
+		44B3BD261DC36654009B2774 /* TestFairy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFairy.h; sourceTree = "<group>"; };
+		44B3BD271DC36654009B2774 /* upload-dsym.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "upload-dsym.sh"; sourceTree = "<group>"; };
+		44B3BD2A1DC3671F009B2774 /* iSteerPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iSteerPrefixHeader.pch; sourceTree = "<group>"; };
+		44B960E21DB888240090EDD9 /* ISCarpoolRequestDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISCarpoolRequestDetailVC.h; path = "View Controller/ISCarpoolRequestDetailVC.h"; sourceTree = "<group>"; };
+		44B960E31DB888240090EDD9 /* ISCarpoolRequestDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISCarpoolRequestDetailVC.m; path = "View Controller/ISCarpoolRequestDetailVC.m"; sourceTree = "<group>"; };
+		44C5EF691DC1C6F900A66633 /* ISCompletedProfileVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISCompletedProfileVC.h; path = "View Controller/ISCompletedProfileVC.h"; sourceTree = "<group>"; };
+		44C5EF6A1DC1C6F900A66633 /* ISCompletedProfileVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISCompletedProfileVC.m; path = "View Controller/ISCompletedProfileVC.m"; sourceTree = "<group>"; };
+		44C5EF6C1DC2002B00A66633 /* ISRequestTextModelClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISRequestTextModelClass.h; path = "Model Class/ISRequestTextModelClass.h"; sourceTree = "<group>"; };
+		44C5EF6D1DC2002B00A66633 /* ISRequestTextModelClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISRequestTextModelClass.m; path = "Model Class/ISRequestTextModelClass.m"; sourceTree = "<group>"; };
+		44C5EF6F1DC200BA00A66633 /* ISDueDateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISDueDateModel.h; path = "Model Class/ISDueDateModel.h"; sourceTree = "<group>"; };
+		44C5EF701DC200BA00A66633 /* ISDueDateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISDueDateModel.m; path = "Model Class/ISDueDateModel.m"; sourceTree = "<group>"; };
+		44C5EF721DC200F500A66633 /* ISSourceAddressModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSourceAddressModel.h; path = "Model Class/ISSourceAddressModel.h"; sourceTree = "<group>"; };
+		44C5EF731DC200F500A66633 /* ISSourceAddressModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSourceAddressModel.m; path = "Model Class/ISSourceAddressModel.m"; sourceTree = "<group>"; };
+		44C5EF751DC2016300A66633 /* ISDestinationAddressModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISDestinationAddressModel.h; path = "Model Class/ISDestinationAddressModel.h"; sourceTree = "<group>"; };
+		44C5EF761DC2016300A66633 /* ISDestinationAddressModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISDestinationAddressModel.m; path = "Model Class/ISDestinationAddressModel.m"; sourceTree = "<group>"; };
+		44C5EF781DC2075B00A66633 /* ISRequestDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISRequestDataModel.h; path = "Model Class/ISRequestDataModel.h"; sourceTree = "<group>"; };
+		44C5EF791DC2075B00A66633 /* ISRequestDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISRequestDataModel.m; path = "Model Class/ISRequestDataModel.m"; sourceTree = "<group>"; };
+		44C5EF7B1DC2082900A66633 /* ISContactNumberModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISContactNumberModel.h; path = "Model Class/ISContactNumberModel.h"; sourceTree = "<group>"; };
+		44C5EF7C1DC2082900A66633 /* ISContactNumberModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISContactNumberModel.m; path = "Model Class/ISContactNumberModel.m"; sourceTree = "<group>"; };
+		44C6EAC91DE0304600210F85 /* ISArchivedRequestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISArchivedRequestVC.h; path = "View Controller/ISArchivedRequestVC.h"; sourceTree = "<group>"; };
+		44C6EACA1DE0304600210F85 /* ISArchivedRequestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISArchivedRequestVC.m; path = "View Controller/ISArchivedRequestVC.m"; sourceTree = "<group>"; };
+		44DE5CCE1DB4E66E005219C4 /* iSteer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSteer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44DE5CD21DB4E66E005219C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44DE5CD41DB4E66E005219C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		44DE5CD51DB4E66E005219C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		44DE5CDB1DB4E66E005219C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44DE5CDD1DB4E66E005219C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44DE5CE01DB4E66E005219C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44DE5CE21DB4E66E005219C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44DE5CE71DB4E66E005219C4 /* iSteerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iSteerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44DE5CEB1DB4E66E005219C4 /* iSteerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iSteerTests.m; sourceTree = "<group>"; };
+		44DE5CED1DB4E66E005219C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44DE5CF21DB4E66E005219C4 /* iSteerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iSteerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44DE5CF61DB4E66E005219C4 /* iSteerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iSteerUITests.m; sourceTree = "<group>"; };
+		44DE5CF81DB4E66E005219C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44DE5D081DB4E915005219C4 /* ISWelcomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISWelcomeVC.h; path = "View Controller/ISWelcomeVC.h"; sourceTree = "<group>"; };
+		44DE5D091DB4E915005219C4 /* ISWelcomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISWelcomeVC.m; path = "View Controller/ISWelcomeVC.m"; sourceTree = "<group>"; };
+		44DE5D0B1DB4E968005219C4 /* ISVerificationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISVerificationVC.h; path = "View Controller/ISVerificationVC.h"; sourceTree = "<group>"; };
+		44DE5D0C1DB4E968005219C4 /* ISVerificationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISVerificationVC.m; path = "View Controller/ISVerificationVC.m"; sourceTree = "<group>"; };
+		44DE5D0E1DB4F263005219C4 /* ISContactsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISContactsVC.h; path = "View Controller/ISContactsVC.h"; sourceTree = "<group>"; };
+		44DE5D0F1DB4F263005219C4 /* ISContactsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISContactsVC.m; path = "View Controller/ISContactsVC.m"; sourceTree = "<group>"; };
+		44DE5D111DB4F27F005219C4 /* ISGroupsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISGroupsVC.h; path = "View Controller/ISGroupsVC.h"; sourceTree = "<group>"; };
+		44DE5D121DB4F27F005219C4 /* ISGroupsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISGroupsVC.m; path = "View Controller/ISGroupsVC.m"; sourceTree = "<group>"; };
+		44DE5D141DB4F294005219C4 /* ISSettingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSettingVC.h; path = "View Controller/ISSettingVC.h"; sourceTree = "<group>"; };
+		44DE5D151DB4F294005219C4 /* ISSettingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSettingVC.m; path = "View Controller/ISSettingVC.m"; sourceTree = "<group>"; };
+		44DE5D181DB4FEE9005219C4 /* countries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = countries.json; path = "Third Party/CountryList/countries.json"; sourceTree = "<group>"; };
+		44DE5D191DB4FEE9005219C4 /* CountryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CountryCell.h; path = "Third Party/CountryList/CountryCell.h"; sourceTree = "<group>"; };
+		44DE5D1A1DB4FEE9005219C4 /* CountryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CountryCell.m; path = "Third Party/CountryList/CountryCell.m"; sourceTree = "<group>"; };
+		44DE5D1B1DB4FEE9005219C4 /* CountryListDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CountryListDataSource.h; path = "Third Party/CountryList/CountryListDataSource.h"; sourceTree = "<group>"; };
+		44DE5D1C1DB4FEE9005219C4 /* CountryListDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CountryListDataSource.m; path = "Third Party/CountryList/CountryListDataSource.m"; sourceTree = "<group>"; };
+		44DE5D1D1DB4FEE9005219C4 /* CountryListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CountryListViewController.h; path = "Third Party/CountryList/CountryListViewController.h"; sourceTree = "<group>"; };
+		44DE5D1E1DB4FEE9005219C4 /* CountryListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CountryListViewController.m; path = "Third Party/CountryList/CountryListViewController.m"; sourceTree = "<group>"; };
+		44DE5D1F1DB4FEE9005219C4 /* CountryListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CountryListViewController.xib; path = "Third Party/CountryList/CountryListViewController.xib"; sourceTree = "<group>"; };
+		44E0B5D11DD037AE0089546E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		44E0B5D41DD038180089546E /* iSteerModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iSteerModel.xcdatamodel; sourceTree = "<group>"; };
+		44ED28671DB763A200810A12 /* ISNewGroupVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISNewGroupVC.h; path = "View Controller/ISNewGroupVC.h"; sourceTree = "<group>"; };
+		44ED28681DB763A200810A12 /* ISNewGroupVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISNewGroupVC.m; path = "View Controller/ISNewGroupVC.m"; sourceTree = "<group>"; };
+		44ED286C1DB7716000810A12 /* ISSelectedContactListCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSelectedContactListCollectionCell.h; path = "Custom Cell/Collection View/ISSelectedContactListCollectionCell.h"; sourceTree = "<group>"; };
+		44ED286D1DB7716000810A12 /* ISSelectedContactListCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSelectedContactListCollectionCell.m; path = "Custom Cell/Collection View/ISSelectedContactListCollectionCell.m"; sourceTree = "<group>"; };
+		44F6EC481DB8A82F00188A1D /* ISRequestTextPopUpVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISRequestTextPopUpVC.h; path = "View Controller/ISRequestTextPopUpVC.h"; sourceTree = "<group>"; };
+		44F6EC491DB8A82F00188A1D /* ISRequestTextPopUpVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISRequestTextPopUpVC.m; path = "View Controller/ISRequestTextPopUpVC.m"; sourceTree = "<group>"; };
+		53D8858D25EDF73AAEDF3C8E /* Pods-iSteer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSteer.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSteer/Pods-iSteer.release.xcconfig"; sourceTree = "<group>"; };
+		5C11AD335204CE1A86308418 /* Pods-iSteerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSteerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSteerUITests/Pods-iSteerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B8117B1DA4F4D1C9F83F2915 /* libPods-iSteerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iSteerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE0B9AB0BE2D63D83087F6F4 /* Pods-iSteerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSteerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSteerTests/Pods-iSteerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F356643E58CB41776B38B4CD /* libPods-iSteer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iSteer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44DE5CCB1DB4E66E005219C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E0B5D21DD037AE0089546E /* CoreData.framework in Frameworks */,
+				44B3BD231DC36487009B2774 /* OpenGLES.framework in Frameworks */,
+				44B3BD211DC3647D009B2774 /* SystemConfiguration.framework in Frameworks */,
+				44B3BD1F1DC36474009B2774 /* AVFoundation.framework in Frameworks */,
+				44B3BD1D1DC3645E009B2774 /* CoreMotion.framework in Frameworks */,
+				44B3BD1B1DC36454009B2774 /* CoreMedia.framework in Frameworks */,
+				44B3BD281DC36654009B2774 /* libTestFairy.a in Frameworks */,
+				C69E2AA53099576AFCAFC179 /* libPods-iSteer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44DE5CE41DB4E66E005219C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE43BF5B50465D4C0EC7ECDC /* libPods-iSteerTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44DE5CEF1DB4E66E005219C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11DF40A82C05D9825D810068 /* libPods-iSteerUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BB07E2E1CF92F7673174EFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44E0B5D11DD037AE0089546E /* CoreData.framework */,
+				44B3BD221DC36487009B2774 /* OpenGLES.framework */,
+				44B3BD201DC3647D009B2774 /* SystemConfiguration.framework */,
+				44B3BD1E1DC36474009B2774 /* AVFoundation.framework */,
+				44B3BD1C1DC3645E009B2774 /* CoreMotion.framework */,
+				44B3BD1A1DC36454009B2774 /* CoreMedia.framework */,
+				F356643E58CB41776B38B4CD /* libPods-iSteer.a */,
+				2AF1FDB323F5DC4BA00489F9 /* libPods-iSteerTests.a */,
+				B8117B1DA4F4D1C9F83F2915 /* libPods-iSteerUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44074D1C1DDD6B7900FDACCB /* HDNotificationView */ = {
+			isa = PBXGroup;
+			children = (
+				44074D1D1DDD6B7900FDACCB /* HDNotificationView.h */,
+				44074D1E1DDD6B7900FDACCB /* HDNotificationView.m */,
+			);
+			name = HDNotificationView;
+			path = "Third Party/HDNotificationView";
+			sourceTree = "<group>";
+		};
+		44441F6B1DB5EBE400CE732E /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				44ED286B1DB7712400810A12 /* TableView */,
+				44ED286A1DB7711D00810A12 /* CollectionVIew */,
+			);
+			name = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		44B231501DB739BA003C782C /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				44567B481DB9E43700AA938F /* APIUtility.h */,
+				44567B491DB9E43700AA938F /* APIUtility.m */,
+				44B231511DB739CE003C782C /* AppData.h */,
+				44B231521DB739CE003C782C /* AppData.m */,
+				44567B4B1DB9E86D00AA938F /* Constants.h */,
+				44567B4C1DB9E86D00AA938F /* Constants.m */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		44B3BD101DC321A5009B2774 /* Custom Scroll Indicator */ = {
+			isa = PBXGroup;
+			children = (
+				44B3BD111DC321A5009B2774 /* CustomInfiniteIndicator.h */,
+				44B3BD121DC321A5009B2774 /* CustomInfiniteIndicator.m */,
+			);
+			name = "Custom Scroll Indicator";
+			path = "Third Party/Custom Scroll Indicator";
+			sourceTree = "<group>";
+		};
+		44B3BD241DC36654009B2774 /* TestFairySDK-1.8.0 */ = {
+			isa = PBXGroup;
+			children = (
+				44B3BD251DC36654009B2774 /* libTestFairy.a */,
+				44B3BD261DC36654009B2774 /* TestFairy.h */,
+				44B3BD271DC36654009B2774 /* upload-dsym.sh */,
+			);
+			path = "TestFairySDK-1.8.0";
+			sourceTree = "<group>";
+		};
+		44DE5CC51DB4E66E005219C4 = {
+			isa = PBXGroup;
+			children = (
+				44B3BD2A1DC3671F009B2774 /* iSteerPrefixHeader.pch */,
+				44DE5CD01DB4E66E005219C4 /* iSteer */,
+				44DE5CEA1DB4E66E005219C4 /* iSteerTests */,
+				44DE5CF51DB4E66E005219C4 /* iSteerUITests */,
+				44DE5CCF1DB4E66E005219C4 /* Products */,
+				FBA9FA5A9C9A31DBE7B836AD /* Pods */,
+				1BB07E2E1CF92F7673174EFD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		44DE5CCF1DB4E66E005219C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44DE5CCE1DB4E66E005219C4 /* iSteer.app */,
+				44DE5CE71DB4E66E005219C4 /* iSteerTests.xctest */,
+				44DE5CF21DB4E66E005219C4 /* iSteerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44DE5CD01DB4E66E005219C4 /* iSteer */ = {
+			isa = PBXGroup;
+			children = (
+				44B231501DB739BA003C782C /* Utility */,
+				44441F6B1DB5EBE400CE732E /* Custom Cell */,
+				44DE5D061DB4E883005219C4 /* UI */,
+				44DE5D071DB4E888005219C4 /* Third Party */,
+				44DE5D051DB4E87D005219C4 /* Model Class */,
+				44DE5D041DB4E875005219C4 /* View Controller */,
+				44DE5CD41DB4E66E005219C4 /* AppDelegate.h */,
+				44DE5CD51DB4E66E005219C4 /* AppDelegate.m */,
+				44DE5CDD1DB4E66E005219C4 /* Assets.xcassets */,
+				44DE5CE21DB4E66E005219C4 /* Info.plist */,
+				44DE5CD11DB4E66E005219C4 /* Supporting Files */,
+				44E0B5D31DD038180089546E /* iSteerModel.xcdatamodeld */,
+			);
+			path = iSteer;
+			sourceTree = "<group>";
+		};
+		44DE5CD11DB4E66E005219C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44DE5CD21DB4E66E005219C4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		44DE5CEA1DB4E66E005219C4 /* iSteerTests */ = {
+			isa = PBXGroup;
+			children = (
+				44DE5CEB1DB4E66E005219C4 /* iSteerTests.m */,
+				44DE5CED1DB4E66E005219C4 /* Info.plist */,
+			);
+			path = iSteerTests;
+			sourceTree = "<group>";
+		};
+		44DE5CF51DB4E66E005219C4 /* iSteerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				44DE5CF61DB4E66E005219C4 /* iSteerUITests.m */,
+				44DE5CF81DB4E66E005219C4 /* Info.plist */,
+			);
+			path = iSteerUITests;
+			sourceTree = "<group>";
+		};
+		44DE5D041DB4E875005219C4 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				44F6EC481DB8A82F00188A1D /* ISRequestTextPopUpVC.h */,
+				44F6EC491DB8A82F00188A1D /* ISRequestTextPopUpVC.m */,
+				44DE5D081DB4E915005219C4 /* ISWelcomeVC.h */,
+				44DE5D091DB4E915005219C4 /* ISWelcomeVC.m */,
+				44DE5D0B1DB4E968005219C4 /* ISVerificationVC.h */,
+				44DE5D0C1DB4E968005219C4 /* ISVerificationVC.m */,
+				44DE5D0E1DB4F263005219C4 /* ISContactsVC.h */,
+				44DE5D0F1DB4F263005219C4 /* ISContactsVC.m */,
+				44DE5D111DB4F27F005219C4 /* ISGroupsVC.h */,
+				44DE5D121DB4F27F005219C4 /* ISGroupsVC.m */,
+				44DE5D141DB4F294005219C4 /* ISSettingVC.h */,
+				44DE5D151DB4F294005219C4 /* ISSettingVC.m */,
+				44441F6F1DB5FDFD00CE732E /* ISGroupDetailVC.h */,
+				44441F701DB5FDFD00CE732E /* ISGroupDetailVC.m */,
+				44441F781DB62C0D00CE732E /* ISNewRequestVC.h */,
+				44441F791DB62C0D00CE732E /* ISNewRequestVC.m */,
+				44ED28671DB763A200810A12 /* ISNewGroupVC.h */,
+				44ED28681DB763A200810A12 /* ISNewGroupVC.m */,
+				44B960E21DB888240090EDD9 /* ISCarpoolRequestDetailVC.h */,
+				44B960E31DB888240090EDD9 /* ISCarpoolRequestDetailVC.m */,
+				44567B421DB9DB9200AA938F /* ICEventRequestDetailVC.h */,
+				44567B431DB9DB9200AA938F /* ICEventRequestDetailVC.m */,
+				44B2D9651DBF316600992D8D /* ISGroupInfoVC.h */,
+				44B2D9661DBF316600992D8D /* ISGroupInfoVC.m */,
+				44AE33801DC08961000DA994 /* ISAddMemberToGroupVC.h */,
+				44AE33811DC08961000DA994 /* ISAddMemberToGroupVC.m */,
+				44C5EF691DC1C6F900A66633 /* ISCompletedProfileVC.h */,
+				44C5EF6A1DC1C6F900A66633 /* ISCompletedProfileVC.m */,
+				446839EC1DDAD00B00AAA51F /* ISLocalContactVC.h */,
+				446839ED1DDAD00B00AAA51F /* ISLocalContactVC.m */,
+				44C6EAC91DE0304600210F85 /* ISArchivedRequestVC.h */,
+				44C6EACA1DE0304600210F85 /* ISArchivedRequestVC.m */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		44DE5D051DB4E87D005219C4 /* Model Class */ = {
+			isa = PBXGroup;
+			children = (
+				44B2314D1DB738A0003C782C /* ISContactDataModel.h */,
+				44B2314E1DB738A0003C782C /* ISContactDataModel.m */,
+				44475A581DB748E40056FD24 /* ISContactDataListModel.h */,
+				44475A591DB748E40056FD24 /* ISContactDataListModel.m */,
+				44567B4E1DBA29F300AA938F /* ISCurrentUserData.h */,
+				44567B4F1DBA29F300AA938F /* ISCurrentUserData.m */,
+				44AD99A21DBDD264007EF52A /* ISGroupDataModel.h */,
+				44AD99A31DBDD264007EF52A /* ISGroupDataModel.m */,
+				44AD99A51DBDD305007EF52A /* ISGroupMemberDataModel.h */,
+				44AD99A61DBDD305007EF52A /* ISGroupMemberDataModel.m */,
+				44C5EF6C1DC2002B00A66633 /* ISRequestTextModelClass.h */,
+				44C5EF6D1DC2002B00A66633 /* ISRequestTextModelClass.m */,
+				44C5EF6F1DC200BA00A66633 /* ISDueDateModel.h */,
+				44C5EF701DC200BA00A66633 /* ISDueDateModel.m */,
+				44C5EF721DC200F500A66633 /* ISSourceAddressModel.h */,
+				44C5EF731DC200F500A66633 /* ISSourceAddressModel.m */,
+				44C5EF751DC2016300A66633 /* ISDestinationAddressModel.h */,
+				44C5EF761DC2016300A66633 /* ISDestinationAddressModel.m */,
+				44C5EF781DC2075B00A66633 /* ISRequestDataModel.h */,
+				44C5EF791DC2075B00A66633 /* ISRequestDataModel.m */,
+				44C5EF7B1DC2082900A66633 /* ISContactNumberModel.h */,
+				44C5EF7C1DC2082900A66633 /* ISContactNumberModel.m */,
+				446839EF1DDADFB600AAA51F /* ISLocalContactDataModel.h */,
+				446839F01DDADFB600AAA51F /* ISLocalContactDataModel.m */,
+			);
+			name = "Model Class";
+			sourceTree = "<group>";
+		};
+		44DE5D061DB4E883005219C4 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				44DE5CDA1DB4E66E005219C4 /* Main.storyboard */,
+				44DE5CDF1DB4E66E005219C4 /* LaunchScreen.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		44DE5D071DB4E888005219C4 /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				44074D1C1DDD6B7900FDACCB /* HDNotificationView */,
+				44B3BD241DC36654009B2774 /* TestFairySDK-1.8.0 */,
+				44B3BD101DC321A5009B2774 /* Custom Scroll Indicator */,
+				44DE5D171DB4FEB2005219C4 /* Country Picker */,
+			);
+			name = "Third Party";
+			sourceTree = "<group>";
+		};
+		44DE5D171DB4FEB2005219C4 /* Country Picker */ = {
+			isa = PBXGroup;
+			children = (
+				44DE5D181DB4FEE9005219C4 /* countries.json */,
+				44DE5D191DB4FEE9005219C4 /* CountryCell.h */,
+				44DE5D1A1DB4FEE9005219C4 /* CountryCell.m */,
+				44DE5D1B1DB4FEE9005219C4 /* CountryListDataSource.h */,
+				44DE5D1C1DB4FEE9005219C4 /* CountryListDataSource.m */,
+				44DE5D1D1DB4FEE9005219C4 /* CountryListViewController.h */,
+				44DE5D1E1DB4FEE9005219C4 /* CountryListViewController.m */,
+				44DE5D1F1DB4FEE9005219C4 /* CountryListViewController.xib */,
+				44441F661DB5DC9100CE732E /* CountryPickerTableCell.h */,
+				44441F671DB5DC9100CE732E /* CountryPickerTableCell.m */,
+				44441F681DB5DC9100CE732E /* CountryPickerTableCell.xib */,
+			);
+			name = "Country Picker";
+			sourceTree = "<group>";
+		};
+		44ED286A1DB7711D00810A12 /* CollectionVIew */ = {
+			isa = PBXGroup;
+			children = (
+				44ED286C1DB7716000810A12 /* ISSelectedContactListCollectionCell.h */,
+				44ED286D1DB7716000810A12 /* ISSelectedContactListCollectionCell.m */,
+			);
+			name = CollectionVIew;
+			sourceTree = "<group>";
+		};
+		44ED286B1DB7712400810A12 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				44441F6C1DB5EC0800CE732E /* ISGroupListTableCell.h */,
+				44441F6D1DB5EC0800CE732E /* ISGroupListTableCell.m */,
+				44441F721DB5FF7B00CE732E /* ISCarpoolGroupTableCell.h */,
+				44441F731DB5FF7B00CE732E /* ISCarpoolGroupTableCell.m */,
+				44441F751DB5FF9400CE732E /* ISEventGroupTableCell.h */,
+				44441F761DB5FF9400CE732E /* ISEventGroupTableCell.m */,
+				44B2314A1DB733FE003C782C /* ISContactListTableCell.h */,
+				44B2314B1DB733FE003C782C /* ISContactListTableCell.m */,
+				44AE33831DC09C7A000DA994 /* ISAddMemberTableCell.h */,
+				44AE33841DC09C7A000DA994 /* ISAddMemberTableCell.m */,
+				44586AC21DE2EBBA00B01D90 /* ISNewRequestDateTableCell.h */,
+				44586AC31DE2EBBA00B01D90 /* ISNewRequestDateTableCell.m */,
+			);
+			name = TableView;
+			sourceTree = "<group>";
+		};
+		FBA9FA5A9C9A31DBE7B836AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DDAE429631615D56867BF1B /* Pods-iSteer.debug.xcconfig */,
+				53D8858D25EDF73AAEDF3C8E /* Pods-iSteer.release.xcconfig */,
+				CE0B9AB0BE2D63D83087F6F4 /* Pods-iSteerTests.debug.xcconfig */,
+				27B187DF909CC37017F2D1A3 /* Pods-iSteerTests.release.xcconfig */,
+				5C11AD335204CE1A86308418 /* Pods-iSteerUITests.debug.xcconfig */,
+				414F42301AD8F009DEA3EDD1 /* Pods-iSteerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44DE5CCD1DB4E66E005219C4 /* iSteer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44DE5CFB1DB4E66E005219C4 /* Build configuration list for PBXNativeTarget "iSteer" */;
+			buildPhases = (
+				40D9D21CAD43C7FA85330355 /* [CP] Check Pods Manifest.lock */,
+				44DE5CCA1DB4E66E005219C4 /* Sources */,
+				44DE5CCB1DB4E66E005219C4 /* Frameworks */,
+				44DE5CCC1DB4E66E005219C4 /* Resources */,
+				85456CE23FB973D6BCF63A0A /* [CP] Embed Pods Frameworks */,
+				5202736659B3935867987357 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iSteer;
+			productName = iSteer;
+			productReference = 44DE5CCE1DB4E66E005219C4 /* iSteer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44DE5CE61DB4E66E005219C4 /* iSteerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44DE5CFE1DB4E66E005219C4 /* Build configuration list for PBXNativeTarget "iSteerTests" */;
+			buildPhases = (
+				1C0A5707BFE59064BF27EDBA /* [CP] Check Pods Manifest.lock */,
+				44DE5CE31DB4E66E005219C4 /* Sources */,
+				44DE5CE41DB4E66E005219C4 /* Frameworks */,
+				44DE5CE51DB4E66E005219C4 /* Resources */,
+				227C1A7471EF0ABAFB6BD146 /* [CP] Embed Pods Frameworks */,
+				532B8F2107D12A90CE8E75AA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44DE5CE91DB4E66E005219C4 /* PBXTargetDependency */,
+			);
+			name = iSteerTests;
+			productName = iSteerTests;
+			productReference = 44DE5CE71DB4E66E005219C4 /* iSteerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		44DE5CF11DB4E66E005219C4 /* iSteerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44DE5D011DB4E66E005219C4 /* Build configuration list for PBXNativeTarget "iSteerUITests" */;
+			buildPhases = (
+				B18CD744D857AE5F183F0D84 /* [CP] Check Pods Manifest.lock */,
+				44DE5CEE1DB4E66E005219C4 /* Sources */,
+				44DE5CEF1DB4E66E005219C4 /* Frameworks */,
+				44DE5CF01DB4E66E005219C4 /* Resources */,
+				9D4F835372969B0059732946 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44DE5CF41DB4E66E005219C4 /* PBXTargetDependency */,
+			);
+			name = iSteerUITests;
+			productName = iSteerUITests;
+			productReference = 44DE5CF21DB4E66E005219C4 /* iSteerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44DE5CC61DB4E66E005219C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = iSteer;
+				TargetAttributes = {
+					44DE5CCD1DB4E66E005219C4 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = HP86UW4WQT;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					44DE5CE61DB4E66E005219C4 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 44DE5CCD1DB4E66E005219C4;
+					};
+					44DE5CF11DB4E66E005219C4 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 44DE5CCD1DB4E66E005219C4;
+					};
+				};
+			};
+			buildConfigurationList = 44DE5CC91DB4E66E005219C4 /* Build configuration list for PBXProject "iSteer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44DE5CC51DB4E66E005219C4;
+			productRefGroup = 44DE5CCF1DB4E66E005219C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44DE5CCD1DB4E66E005219C4 /* iSteer */,
+				44DE5CE61DB4E66E005219C4 /* iSteerTests */,
+				44DE5CF11DB4E66E005219C4 /* iSteerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44DE5CCC1DB4E66E005219C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44DE5D241DB4FEE9005219C4 /* CountryListViewController.xib in Resources */,
+				44DE5CE11DB4E66E005219C4 /* LaunchScreen.storyboard in Resources */,
+				44DE5CDE1DB4E66E005219C4 /* Assets.xcassets in Resources */,
+				44B3BD291DC36654009B2774 /* upload-dsym.sh in Resources */,
+				44441F6A1DB5DC9100CE732E /* CountryPickerTableCell.xib in Resources */,
+				44DE5D201DB4FEE9005219C4 /* countries.json in Resources */,
+				44DE5CDC1DB4E66E005219C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44DE5CE51DB4E66E005219C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44DE5CF01DB4E66E005219C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C0A5707BFE59064BF27EDBA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		227C1A7471EF0ABAFB6BD146 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSteerTests/Pods-iSteerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40D9D21CAD43C7FA85330355 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5202736659B3935867987357 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSteer/Pods-iSteer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		532B8F2107D12A90CE8E75AA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSteerTests/Pods-iSteerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85456CE23FB973D6BCF63A0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSteer/Pods-iSteer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D4F835372969B0059732946 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSteerUITests/Pods-iSteerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B18CD744D857AE5F183F0D84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44DE5CCA1DB4E66E005219C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44DE5D0A1DB4E915005219C4 /* ISWelcomeVC.m in Sources */,
+				44567B4A1DB9E43700AA938F /* APIUtility.m in Sources */,
+				446839EE1DDAD00B00AAA51F /* ISLocalContactVC.m in Sources */,
+				44B2D9671DBF316600992D8D /* ISGroupInfoVC.m in Sources */,
+				44DE5D0D1DB4E968005219C4 /* ISVerificationVC.m in Sources */,
+				44B3BD131DC321A5009B2774 /* CustomInfiniteIndicator.m in Sources */,
+				44AE33851DC09C7A000DA994 /* ISAddMemberTableCell.m in Sources */,
+				44441F6E1DB5EC0800CE732E /* ISGroupListTableCell.m in Sources */,
+				44586AC41DE2EBBA00B01D90 /* ISNewRequestDateTableCell.m in Sources */,
+				44E0B5D51DD038180089546E /* iSteerModel.xcdatamodeld in Sources */,
+				44B231531DB739CE003C782C /* AppData.m in Sources */,
+				446839F11DDADFB600AAA51F /* ISLocalContactDataModel.m in Sources */,
+				44441F7A1DB62C0D00CE732E /* ISNewRequestVC.m in Sources */,
+				44DE5D131DB4F27F005219C4 /* ISGroupsVC.m in Sources */,
+				44AD99A41DBDD264007EF52A /* ISGroupDataModel.m in Sources */,
+				44441F691DB5DC9100CE732E /* CountryPickerTableCell.m in Sources */,
+				44074D1F1DDD6B7900FDACCB /* HDNotificationView.m in Sources */,
+				44C6EACB1DE0304600210F85 /* ISArchivedRequestVC.m in Sources */,
+				44DE5D101DB4F263005219C4 /* ISContactsVC.m in Sources */,
+				44C5EF711DC200BA00A66633 /* ISDueDateModel.m in Sources */,
+				44F6EC4B1DB8A82F00188A1D /* ISRequestTextPopUpVC.m in Sources */,
+				44DE5D211DB4FEE9005219C4 /* CountryCell.m in Sources */,
+				44ED28691DB763A200810A12 /* ISNewGroupVC.m in Sources */,
+				44C5EF741DC200F500A66633 /* ISSourceAddressModel.m in Sources */,
+				44AD99A71DBDD305007EF52A /* ISGroupMemberDataModel.m in Sources */,
+				44C5EF6B1DC1C6FA00A66633 /* ISCompletedProfileVC.m in Sources */,
+				44C5EF7D1DC2082900A66633 /* ISContactNumberModel.m in Sources */,
+				44441F741DB5FF7B00CE732E /* ISCarpoolGroupTableCell.m in Sources */,
+				44441F771DB5FF9400CE732E /* ISEventGroupTableCell.m in Sources */,
+				44DE5CD61DB4E66E005219C4 /* AppDelegate.m in Sources */,
+				44C5EF6E1DC2002B00A66633 /* ISRequestTextModelClass.m in Sources */,
+				44B2314C1DB733FE003C782C /* ISContactListTableCell.m in Sources */,
+				44B2314F1DB738A0003C782C /* ISContactDataModel.m in Sources */,
+				44ED286E1DB7716000810A12 /* ISSelectedContactListCollectionCell.m in Sources */,
+				44DE5D221DB4FEE9005219C4 /* CountryListDataSource.m in Sources */,
+				44C5EF7A1DC2075B00A66633 /* ISRequestDataModel.m in Sources */,
+				44DE5D161DB4F294005219C4 /* ISSettingVC.m in Sources */,
+				44AE33821DC08961000DA994 /* ISAddMemberToGroupVC.m in Sources */,
+				44567B441DB9DB9200AA938F /* ICEventRequestDetailVC.m in Sources */,
+				44B960E41DB888240090EDD9 /* ISCarpoolRequestDetailVC.m in Sources */,
+				44C5EF771DC2016300A66633 /* ISDestinationAddressModel.m in Sources */,
+				44567B501DBA29F300AA938F /* ISCurrentUserData.m in Sources */,
+				44DE5CD31DB4E66E005219C4 /* main.m in Sources */,
+				44441F711DB5FDFD00CE732E /* ISGroupDetailVC.m in Sources */,
+				44475A5A1DB748E40056FD24 /* ISContactDataListModel.m in Sources */,
+				44DE5D231DB4FEE9005219C4 /* CountryListViewController.m in Sources */,
+				44567B4D1DB9E86D00AA938F /* Constants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44DE5CE31DB4E66E005219C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44DE5CEC1DB4E66E005219C4 /* iSteerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44DE5CEE1DB4E66E005219C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44DE5CF71DB4E66E005219C4 /* iSteerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44DE5CE91DB4E66E005219C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44DE5CCD1DB4E66E005219C4 /* iSteer */;
+			targetProxy = 44DE5CE81DB4E66E005219C4 /* PBXContainerItemProxy */;
+		};
+		44DE5CF41DB4E66E005219C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44DE5CCD1DB4E66E005219C4 /* iSteer */;
+			targetProxy = 44DE5CF31DB4E66E005219C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44DE5CDA1DB4E66E005219C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44DE5CDB1DB4E66E005219C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44DE5CDF1DB4E66E005219C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44DE5CE01DB4E66E005219C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44DE5CF91DB4E66E005219C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		44DE5CFA1DB4E66E005219C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44DE5CFC1DB4E66E005219C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DDAE429631615D56867BF1B /* Pods-iSteer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = HP86UW4WQT;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = iSteerPrefixHeader.pch;
+				INFOPLIST_FILE = iSteer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iSteer/Third",
+					"Party/TestFairySDK-1.8.0",
+					"$(PROJECT_DIR)/iSteer/TestFairySDK-1.8.0",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.narola.iStreet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2ea7ab9b-fecc-42ea-8381-475f291f39a1";
+				PROVISIONING_PROFILE_SPECIFIER = "Favorfox Adhoc";
+			};
+			name = Debug;
+		};
+		44DE5CFD1DB4E66E005219C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53D8858D25EDF73AAEDF3C8E /* Pods-iSteer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = HP86UW4WQT;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = iSteerPrefixHeader.pch;
+				INFOPLIST_FILE = iSteer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iSteer/Third",
+					"Party/TestFairySDK-1.8.0",
+					"$(PROJECT_DIR)/iSteer/TestFairySDK-1.8.0",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.narola.iStreet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2ea7ab9b-fecc-42ea-8381-475f291f39a1";
+				PROVISIONING_PROFILE_SPECIFIER = "Favorfox Adhoc";
+			};
+			name = Release;
+		};
+		44DE5CFF1DB4E66E005219C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE0B9AB0BE2D63D83087F6F4 /* Pods-iSteerTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iSteerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iSteerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSteer.app/iSteer";
+			};
+			name = Debug;
+		};
+		44DE5D001DB4E66E005219C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27B187DF909CC37017F2D1A3 /* Pods-iSteerTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iSteerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iSteerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSteer.app/iSteer";
+			};
+			name = Release;
+		};
+		44DE5D021DB4E66E005219C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C11AD335204CE1A86308418 /* Pods-iSteerUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = iSteerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iSteerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iSteer;
+			};
+			name = Debug;
+		};
+		44DE5D031DB4E66E005219C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 414F42301AD8F009DEA3EDD1 /* Pods-iSteerUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = iSteerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iSteerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iSteer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44DE5CC91DB4E66E005219C4 /* Build configuration list for PBXProject "iSteer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44DE5CF91DB4E66E005219C4 /* Debug */,
+				44DE5CFA1DB4E66E005219C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44DE5CFB1DB4E66E005219C4 /* Build configuration list for PBXNativeTarget "iSteer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44DE5CFC1DB4E66E005219C4 /* Debug */,
+				44DE5CFD1DB4E66E005219C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44DE5CFE1DB4E66E005219C4 /* Build configuration list for PBXNativeTarget "iSteerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44DE5CFF1DB4E66E005219C4 /* Debug */,
+				44DE5D001DB4E66E005219C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44DE5D011DB4E66E005219C4 /* Build configuration list for PBXNativeTarget "iSteerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44DE5D021DB4E66E005219C4 /* Debug */,
+				44DE5D031DB4E66E005219C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		44E0B5D31DD038180089546E /* iSteerModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				44E0B5D41DD038180089546E /* iSteerModel.xcdatamodel */,
+			);
+			currentVersion = 44E0B5D41DD038180089546E /* iSteerModel.xcdatamodel */;
+			path = iSteerModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 44DE5CC61DB4E66E005219C4 /* Project object */;
+}
